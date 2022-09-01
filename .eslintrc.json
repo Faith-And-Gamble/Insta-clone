@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "root": true,
+  "extends": "airbnb",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "linebreak-style": 0,
+    "react/forbid-prop-types": 0,
+    "no-shadow": "off",
+    "react/jsx-props-no-spreading": 0,
+    "no-restricted-syntax": "off",
+    "no-nested-ternary": "off",
+    "no-underscore-dangle": "off",
+    "react/require-default-props": 0,
+    "jsx-a11y/media-has-caption": 0,
+    "camelcase": "off",
+    "no-case-declarations": "off",
+    "no-else-return": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.spec.js", "**/*.spec.jsx", "*.test.js"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}
