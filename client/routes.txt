@@ -1,0 +1,11 @@
+Routes :-
+
+    Routes For Login Page :-
+                            Login With Facebook
+                            SignUp
+                            Forgotten Your Password
+                            Term And Conditions And Privacy Policy
+
+    Routes For SignUp Page :-
+                            Login With Facebook
+                            Login
