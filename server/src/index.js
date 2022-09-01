@@ -14,7 +14,7 @@ const likeRoute = require('./routes/likes.js');
 const authRoute = require('./routes/auth.js');
 
 const app = express();
-dotenv.config()
+dotenv.config();
 
 //middleware
 app.use(fileUpload({
