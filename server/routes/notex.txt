@@ -1,0 +1,6 @@
+Folder for routes all the API's .
+
+Structure to use:
+Create file:
+<name>.routes.js
+
