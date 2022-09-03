@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import UserProfile from './components/userProfile';
 
 function App() {
   return (
     <div className="App">
-      Hello World
+      <UserProfile />
     </div>
   );
 }
