@@ -1,6 +1,0 @@
-Folder for all the utility functions.
-
-Structure to use:
-Create file:
-<name>.utility.js
-

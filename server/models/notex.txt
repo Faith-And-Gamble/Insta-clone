@@ -1,6 +1,0 @@
-Folder for models all the API's .
-
-Structure to use:
-Create file:
-<name>.model.js
-Please do the changes

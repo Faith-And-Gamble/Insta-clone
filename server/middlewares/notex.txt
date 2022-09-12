@@ -1,6 +1,0 @@
-Folder for Middleware in the APP .
-
-Structure to use:
-Create file:
-<name>.middleware.js
-

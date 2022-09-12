@@ -1,6 +1,0 @@
-Folder for controlling all the API's .
-
-Structure to use:
-Create file:
-<name>.controller.js
-
