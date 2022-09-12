@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css';
-import ChatBox from './pages/chatBox';
-import DataOfChat from './pages/chatBox/mapDATA/data';
-import IDOfUsers from './pages/chatBox/mapDATA/dataUser';
-import NavBar from './pages/navBar';
+import ChatBox from './components/messageBox';
+import DataOfChat from './components/messageBox/mapDATA/data';
+import IDOfUsers from './components/messageBox/mapDATA/dataUser';
+import NavBar from './components/navBar';
 
 function App() {
   return (
