@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import './userProfile.css';
 
-function UserProfile({
+export default function UserProfile({
     dataOfPost
 }) {
     return (
@@ -112,5 +112,3 @@ function UserProfile({
 UserProfile.propTypes = {
     dataOfPost : PropTypes.array
 }
-
-export default UserProfile;
