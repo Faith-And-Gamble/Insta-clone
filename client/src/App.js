@@ -6,7 +6,7 @@ import NewsInformation from './components/userProfile/data';
 function App() {
   return (
     <div className="App">
-      <UserProfile card={NewsInformation()}/>
+      <UserProfile dataOfPost={NewsInformation()}/>
     </div>
   );
 }

@@ -1,11 +1,9 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-key */
+import PropTypes from 'prop-types';
 import React from 'react';
 import './userProfile.css';
-// import { ReactPropTypes } from 'react';
 
 function UserProfile({
-    card
+    dataOfPost
 }) {
     return (
         <div className="userprofile">
@@ -92,8 +90,8 @@ function UserProfile({
                 <div className="container">
                     <div className="cnt2">
                         <div className="gallery">
-                            {card.map((item) => (
-                                <div className="gallery-item" tabIndex="0">
+                            {dataOfPost.map((item) => (
+                                <div className="gallery-item" tabIndex="0" key={item}>
                                     <img src={item.src} className="gallery-image" alt="" />
                                     <div className="gallery-item-info">
                                         <ul>
@@ -111,8 +109,8 @@ function UserProfile({
     )
 }
 
-// UserProfile.ReactPropTypes = {
-//     card : ReactPropTypes.array,
-// }
+UserProfile.propTypes = {
+    dataOfPost : PropTypes.array
+}
 
 export default UserProfile;
