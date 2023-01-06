@@ -1,38 +1,38 @@
 import './home.css';
-import {AiOutlineHeart, AiOutlineCompass, AiOutlineSearch} from "react-icons/ai";
-import { FaInstagramSquare }from "react-icons/fa";
+import { AiOutlineHeart, AiOutlineCompass, AiOutlineSearch } from "react-icons/ai";
+import { FaInstagramSquare } from "react-icons/fa";
 import { RiMessengerLine } from "react-icons/ri";
-import {MdHomeFilled} from "react-icons/md";
+import { MdHomeFilled } from "react-icons/md";
 
 function Home() {
-	
+
 	return (
 		<div>
 			<header>
-				<nav class="navbar">
-					<div class="container">
-						<FaInstagramSquare/>
-						<div class="searchbar">
-							<AiOutlineSearch/>
+				<nav className="navbar">
+					<div className="container">
+						<FaInstagramSquare />
+						<div className="searchbar">
+							<AiOutlineSearch />
 							<input type="text" placeholder="Search" />
 						</div>
-						<div class="nav-links">
-							<ul class="nav-group">
-								<li class="nav-item">
-									<a href="##"><MdHomeFilled/></a>
+						<div className="nav-links">
+							<ul className="nav-group">
+								<li className="nav-item">
+									<a href="##"><MdHomeFilled /></a>
 								</li>
-								<li class="nav-item">
-									<a href="https://www.instagram.com/direct/inbox/general/?hl=en"><RiMessengerLine/></a>
+								<li className="nav-item">
+									<a href="https://www.instagram.com/direct/inbox/general/?hl=en"><RiMessengerLine /></a>
 								</li>
-								<li class="nav-item">
-									<a href="https://www.instagram.com/explore/?hl=en"><AiOutlineCompass/></a>
+								<li className="nav-item">
+									<a href="https://www.instagram.com/explore/?hl=en"><AiOutlineCompass /></a>
 								</li>
-								<li class="nav-item">
-									<a href="##"><AiOutlineHeart/></a>
+								<li className="nav-item">
+									<a href="##"><AiOutlineHeart /></a>
 								</li>
-								<li class="nav-item">
-									<div class="action">
-										<div class="profile" onclick="menuToggle()">
+								<li className="nav-item">
+									<div className="action">
+										<div className="profile" onclick="menuToggle()">
 											<img src="https://www2.deloitte.com/content/dam/Deloitte/nl/Images/promo_images/deloitte-nl-tnfd-framework-beta-release-promo.jpg" alt="user Avatar" />
 										</div>
 									</div>
@@ -45,61 +45,61 @@ function Home() {
 
 
 			<main>
-				<div class="container">
-					<div class="col-9">
-						<div class="statuses">
-							<div class="status">
-								<div class="image">
+				<div className="container">
+					<div className="col-9">
+						<div className="statuses">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img3" />
 								</div>
 							</div>
-							<div class="status">
-								<div class="image">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img4" />
 								</div>
 							</div>
-							<div class="status">
-								<div class="image">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img5" />
 								</div>
 							</div>
-							<div class="status">
-								<div class="image">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img6" />
 								</div>
 							</div>
-							<div class="status">
-								<div class="image">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img7" />
 								</div>
 							</div>
-							<div class="status">
-								<div class="image">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img8" />
 								</div>
 							</div>
-							<div class="status">
-								<div class="image">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img9" />
 								</div>
 							</div>
-							<div class="status">
-								<div class="image">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img10" />
 								</div>
 							</div>
-							<div class="status">
-								<div class="image">
+							<div className="status">
+								<div className="image">
 									<img src="https://i.pinimg.com/736x/ab/91/ee/ab91eef95a4b974f3dcb32c497802f08.jpg" alt="img11" />
 								</div>
 							</div>
 						</div>
-						<div class="card">
-							<div class="top">
-								<div class="userDetails">
-									<div class="profilepic">
-										<div class="profile_img">
-											<div class="image">
+						<div className="card">
+							<div className="top">
+								<div className="userDetails">
+									<div className="profilepic">
+										<div className="profile_img">
+											<div className="image">
 												<img src="https://i.pinimg.com/originals/76/25/7d/76257d0da36b5676ca2c5d4d2d2e9b7e.jpg" alt="img12" />
 											</div>
 										</div>
@@ -107,16 +107,16 @@ function Home() {
 									<h3>Ayush Agarwal<span>Mumbai, India</span></h3>
 								</div>
 								<div>
-									<span class="dot"><i class="fa fa-ellipsis-h"></i></span>
+									<span className="dot"><i className="fa fa-ellipsis-h"></i></span>
 								</div>
 							</div>
-							<div class="imgBx">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="post-1" class="cover" />
+							<div className="imgBx">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="post-1" className="cover" />
 							</div>
-							<div class="bottom">
-								<div class="actionBtns">
-									<div class="left">
-										<span class="heart" onclick="addlike()">
+							<div className="bottom">
+								<div className="actionBtns">
+									<div className="left">
+										<span className="heart" onclick="addlike()">
 											<span>
 												<svg aria-label="Like"
 													color="#262626"
@@ -144,7 +144,7 @@ function Home() {
 											</span>
 										</span>
 										<svg aria-label="Comment"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -164,7 +164,7 @@ function Home() {
 											</path>
 										</svg>
 										<svg aria-label="Share Post"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -181,9 +181,9 @@ function Home() {
 											</path>
 										</svg>
 									</div>
-									<div class="right">
+									<div className="right">
 										<svg aria-label="Save"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -202,40 +202,40 @@ function Home() {
 										</svg>
 									</div>
 								</div>
-								<a href="##"><p class="likes">203 likes</p></a>
-								<a href="##"><p class="message"><b>Raju Modi</b></p></a>
-								<a href="##"><h4 class="comments">View all 32 comments</h4></a>
-								<a href="##"><h5 class="postTime">2 hours ago</h5></a>
-								<div class="addComments">
-									<div class="reaction">
-										<h3><i class="fa fa-smile"></i></h3>
+								<a href="##"><p className="likes">203 likes</p></a>
+								<a href="##"><p className="message"><b>Raju Modi</b></p></a>
+								<a href="##"><h4 className="comments">View all 32 comments</h4></a>
+								<a href="##"><h5 className="postTime">2 hours ago</h5></a>
+								<div className="addComments">
+									<div className="reaction">
+										<h3><i className="fa fa-smile"></i></h3>
 									</div>
-									<input type="text" class="text" placeholder="Add a comment..." />
+									<input type="text" className="text" placeholder="Add a comment..." />
 									<a href="##">Post</a>
 								</div>
 							</div>
 						</div>
-						<div class="card">
-							<div class="top">
-								<div class="userDetails">
-									<div class="profilepic">
-										<div class="profile_img">
-											<div class="image">
+						<div className="card">
+							<div className="top">
+								<div className="userDetails">
+									<div className="profilepic">
+										<div className="profile_img">
+											<div className="image">
 												<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img13" />
 											</div>
 										</div>
 									</div>
 									<h3>Piyush Agarwal<span>Delhi, India</span></h3>
 								</div>
-								<div><span class="dot"><i class="fa fa-ellipsis-h"></i></span></div>
+								<div><span className="dot"><i className="fa fa-ellipsis-h"></i></span></div>
 							</div>
-							<div class="imgBx">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="post-1" class="cover" />
+							<div className="imgBx">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="post-1" className="cover" />
 							</div>
-							<div class="bottom">
-								<div class="actionBtns">
-									<div class="left">
-										<span class="heart" onclick="addlike()">
+							<div className="bottom">
+								<div className="actionBtns">
+									<div className="left">
+										<span className="heart" onclick="addlike()">
 											<span>
 												<svg aria-label="Like"
 													color="#262626"
@@ -263,7 +263,7 @@ function Home() {
 											</span>
 										</span>
 										<svg aria-label="Comment"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -282,7 +282,7 @@ function Home() {
 											</path>
 										</svg>
 										<svg aria-label="Share Post"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -298,9 +298,9 @@ function Home() {
 											</path>
 										</svg>
 									</div>
-									<div class="right">
+									<div className="right">
 										<svg aria-label="Save"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -317,38 +317,38 @@ function Home() {
 										</svg>
 									</div>
 								</div>
-								<a href="##"><p class="likes">119 likes</p></a>
-								<a href="##"><p class="message"><b>Piyush Agarwal</b></p></a>
-								<a href="##"><h4 class="comments">View all 20 comments</h4></a>
-								<a href="##"><h5 class="postTime">4 hours ago</h5></a>
-								<div class="addComments">
-									<div class="reaction"><h3><i class="fa fa-smile"></i></h3></div>
-									<input type="text" class="text" placeholder="Add a comment..." />
+								<a href="##"><p className="likes">119 likes</p></a>
+								<a href="##"><p className="message"><b>Piyush Agarwal</b></p></a>
+								<a href="##"><h4 className="comments">View all 20 comments</h4></a>
+								<a href="##"><h5 className="postTime">4 hours ago</h5></a>
+								<div className="addComments">
+									<div className="reaction"><h3><i className="fa fa-smile"></i></h3></div>
+									<input type="text" className="text" placeholder="Add a comment..." />
 									<a href="##">Post</a>
 								</div>
 							</div>
 						</div>
-						<div class="card">
-							<div class="top">
-								<div class="userDetails">
-									<div class="profilepic">
-										<div class="profile_img">
-											<div class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img14" /></div>
+						<div className="card">
+							<div className="top">
+								<div className="userDetails">
+									<div className="profilepic">
+										<div className="profile_img">
+											<div className="image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img14" /></div>
 										</div>
 									</div>
 									<h3>Keshav Agarwal<span>Kolkata, India</span></h3>
 								</div>
 								<div>
-									<span class="dot"><i class="fa fa-ellipsis-h"></i></span>
+									<span className="dot"><i className="fa fa-ellipsis-h"></i></span>
 								</div>
 							</div>
-							<div class="imgBx">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="post-1" class="cover" />
+							<div className="imgBx">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="post-1" className="cover" />
 							</div>
-							<div class="bottom">
-								<div class="actionBtns">
-									<div class="left">
-										<span class="heart" onclick="addlike()">
+							<div className="bottom">
+								<div className="actionBtns">
+									<div className="left">
+										<span className="heart" onclick="addlike()">
 											<span>
 												<svg aria-label="Like"
 													color="#262626"
@@ -375,7 +375,7 @@ function Home() {
 											</span>
 										</span>
 										<svg aria-label="Comment"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -394,7 +394,7 @@ function Home() {
 											</path>
 										</svg>
 										<svg aria-label="Share Post"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -411,9 +411,9 @@ function Home() {
 											</path>
 										</svg>
 									</div>
-									<div class="right">
+									<div className="right">
 										<svg aria-label="Save"
-											class="_8-yf5 "
+											className="_8-yf5 "
 											color="#262626"
 											fill="#262626"
 											height="24"
@@ -431,107 +431,107 @@ function Home() {
 										</svg>
 									</div>
 								</div>
-								<a href="##"><p class="likes">184 likes</p></a>
+								<a href="##"><p className="likes">184 likes</p></a>
 								<a href="##">
-									<p class="message">
+									<p className="message">
 										<b>Mayank</b> Nature
 										<span>#love</span>
 										<span>#2021</span>
 									</p>
 								</a>
-								<a href="##"><h4 class="comments">View all 25 comments</h4></a>
-								<a href="##"><h5 class="postTime">9 hours ago</h5></a>
-								<div class="addComments">
-									<div class="reaction">
-										<h3><i class="fa fa-smile"></i></h3>
+								<a href="##"><h4 className="comments">View all 25 comments</h4></a>
+								<a href="##"><h5 className="postTime">9 hours ago</h5></a>
+								<div className="addComments">
+									<div className="reaction">
+										<h3><i className="fa fa-smile"></i></h3>
 									</div>
-									<input type="text" class="text" placeholder="Add a comment..." />
+									<input type="text" className="text" placeholder="Add a comment..." />
 									<a href="##">Post</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
-						<div class="card">
+					<div className="col-3">
+						<div className="card">
 							<h4>Suggestions For You</h4>
-							<div class="top">
-								<div class="userDetails">
-									<div class="profilepic">
-										<div class="profile_img">
-											<div class="image">
+							<div className="top">
+								<div className="userDetails">
+									<div className="profilepic">
+										<div className="profile_img">
+											<div className="image">
 												<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img16" />
 											</div>
 										</div>
 									</div>
 									<h3>Aditya Verma<span>Follows You</span></h3>
 								</div>
-								<div><a href="##" class="follow">follow</a></div>
+								<div><a href="##" className="follow">follow</a></div>
 							</div>
-							<div class="top">
-								<div class="userDetails">
-									<div class="profilepic">
-										<div class="profile_img">
-											<div class="image">
+							<div className="top">
+								<div className="userDetails">
+									<div className="profilepic">
+										<div className="profile_img">
+											<div className="image">
 												<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img17" />
 											</div>
 										</div>
 									</div>
 									<h3>Amit Singh<span>Follows You</span></h3>
 								</div>
-								<div><a href="##" class="follow">follow</a></div>
+								<div><a href="##" className="follow">follow</a></div>
 							</div>
-							<div class="top">
-								<div class="userDetails">
-									<div class="profilepic">
-										<div class="profile_img">
-											<div class="image">
+							<div className="top">
+								<div className="userDetails">
+									<div className="profilepic">
+										<div className="profile_img">
+											<div className="image">
 												<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img18" />
 											</div>
 										</div>
 									</div>
 									<h3>Piyush Agarwal<span>Followed by Keshav Agarwal</span></h3>
 								</div>
-								<div><a href="##" class="follow">follow</a></div>
+								<div><a href="##" className="follow">follow</a></div>
 							</div>
-							<div class="top">
-								<div class="userDetails">
-									<div class="profilepic">
-										<div class="profile_img">
-											<div class="image">
+							<div className="top">
+								<div className="userDetails">
+									<div className="profilepic">
+										<div className="profile_img">
+											<div className="image">
 												<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img19" />
 											</div>
 										</div>
 									</div>
 									<h3>Amit Sharma<span>Follows You</span></h3>
 								</div>
-								<div><a href="##" class="follow">follow</a></div>
+								<div><a href="##" className="follow">follow</a></div>
 							</div>
-							<div class="top">
-								<div class="userDetails">
-									<div class="profilepic">
-										<div class="profile_img">
-											<div class="image">
-												<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img20" class="cover" />
+							<div className="top">
+								<div className="userDetails">
+									<div className="profilepic">
+										<div className="profile_img">
+											<div className="image">
+												<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rosa_Ingrid_Bergman_2018-07-16_6611_%28cropped%29.jpg" alt="img20" className="cover" />
 											</div>
 										</div>
 									</div>
 									<h3>Raj Goel<span>Followed by Keshav Agarwal</span></h3>
 								</div>
-								<div><a href="##" class="follow">follow</a></div>
+								<div><a href="##" className="follow">follow</a></div>
 							</div>
 						</div>
-						<div class="footer">
-							<a class="footer-section" href="##">About</a>
-							<a class="footer-section" href="##">Help</a>
-							<a class="footer-section" href="##">API</a>
-							<a class="footer-section" href="##">Jobs</a>
-							<a class="footer-section" href="##">Privacy</a>
-							<a class="footer-section" href="##">Terms</a>
-							<a class="footer-section" href="##">Locations</a>
-							<a class="footer-section" href="##">Top Accounts</a>
-							<a class="footer-section" href="##">Hashtag</a>
-							<a class="footer-section" href="##">Language</a>
-							<span class="footer-section">
+						<div className="footer">
+							<a className="footer-section" href="##">About</a>
+							<a className="footer-section" href="##">Help</a>
+							<a className="footer-section" href="##">API</a>
+							<a className="footer-section" href="##">Jobs</a>
+							<a className="footer-section" href="##">Privacy</a>
+							<a className="footer-section" href="##">Terms</a>
+							<a className="footer-section" href="##">Locations</a>
+							<a className="footer-section" href="##">Top Accounts</a>
+							<a className="footer-section" href="##">Hashtag</a>
+							<a className="footer-section" href="##">Language</a>
+							<span className="footer-section">
 								© 2023 INSTAGRAM FROM FACEBOOK
 							</span>
 						</div>
